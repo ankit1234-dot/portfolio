@@ -28,13 +28,33 @@
         <section class="firstsection">
             <div class="leftsection">
                 HI, My name is <span class="purple">Ankit Kumar</span>.
-                <div>And I am a web developer.</div>
+                <div>And I am a passoinate</div>
+                <span id="typed-text"></span>
             </div>
             <div class="rightsection">
                 <img src="https://static.vecteezy.com/system/resources/previews/011/153/366/original/3d-web-developer-working-on-project-illustration-png.png" alt=""  width="500px">
             </div>
 
         </section>
+        <hr>
+        <section class="secondsection">
+            <h1>Past Experience</h1>
+        </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    var typed = new Typed('#typed-text', {
+      strings: [
+        'Web Developer',
+        'Software Engineer',
+        'Freelancer',
+        'Designer'
+      ],
+      typeSpeed: 30,
+      backSpeed: 20,
+      loop: true
+    });
+  </script>
 </body>
 </html>
